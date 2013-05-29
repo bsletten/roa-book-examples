@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<id>book:urn:net:bosatsu:roabook:informationResource</id>
+		<title>ROA Book / Information Resource</title>
+		<desc>Information Resource Pattern</desc>
+		<toc>
+			<item id="urn:net:bosatsu:roabook:informationResource"/>
+		</toc>
+	</book>
+</books>
