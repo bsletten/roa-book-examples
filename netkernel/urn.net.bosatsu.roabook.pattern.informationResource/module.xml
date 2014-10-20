@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="2.0">
+	<meta>
+		<identity>
+			<uri>urn:net:bosatsu:roabook:pattern:informationResource</uri>
+			<version>1.0.0</version>
+		</identity>
+		<info>
+			<name>ROA Pattern / Information Resource</name>
+			<description>Chapter 1.1 - Information Resource Pattern</description>
+		</info>
+	</meta>
+	<system>
+		<dynamic />
+	</system>
+
+	
+	<rootspace
+		name="ROA Pattern - Information Resource"
+		uri="urn:net:bosatsu:roabook:pattern:informationResource">
+		<fileset>
+			<regex>res:/resources/hello</regex>
+		</fileset>
+	</rootspace>
+	
+	
+	<!--
+		Documentation Resources - see http://localhost:1060/
+	-->
+	<rootspace
+		name="ROA Pattern - Information Resource - Documentation Space"
+		public="true"
+		uri="urn:net:bosatsu:roabook:pattern:informationResource:doc">
+		<fileset>
+			<regex>res:/etc/system/(Books|Docs).xml</regex>
+		</fileset>
+		<fileset>
+			<regex>res:/net/bosatsu/roabook/doc/.*</regex>
+		</fileset>
+	</rootspace>
+	
+</module>
